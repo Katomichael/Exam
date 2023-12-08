@@ -117,3 +117,6 @@ color: orangered;
     margin-top: 20px;
     transition: background-color 0.3s; /* Smooth transition for color change */
 }
+.navbar-brand{
+    font-style: italic;
+}
