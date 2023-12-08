@@ -60,6 +60,19 @@ p {
     margin: 0 10px;
     font-size: 1.5em;
 }
+.social-links a {
+    text-decoration: none;
+    color: #0077ff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
 .navbarspecial{
     background-color: orangered;
     background-color: cover;
