@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-image: cover;
     background-image: url(./bg\ sheilah.webp);
 }
 nav {
@@ -101,17 +102,18 @@ font-style: italic;
 letter-spacing:1px;
 color: orangered;
 }
-.get-into-fashion-btn {
+
+.get-into-fashion-btn:hover {
+    background-color: #0056b3; 
+}
+ .get-into-fashion-btn {
     background-color: #007BFF; 
     color: #fff;
     border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
+    padding: 10px 20px; 
+    font-size: 1em; 
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    transition: background-color 0.3s; 
-}
-.get-into-fashion-btn:hover {
-    background-color: #0056b3; 
+    transition: background-color 0.3s; /* Smooth transition for color change */
 }
